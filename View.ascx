@@ -112,3 +112,7 @@
                 </div>
             </section>
             <!-- /.content -->
+<div id="kk_aj_conf" style="">
+    <span id="kk_aj_roll" runat="server"></span>
+    <span id="kk_aj_page" runat="server"></span>
+</div>

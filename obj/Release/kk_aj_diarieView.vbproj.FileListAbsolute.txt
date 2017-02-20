@@ -5,3 +5,4 @@ D:\wwwroot\dnndev_v9.me\bin\kk_aj_diarieView.xml
 D:\wwwroot\dnndev_v9.me\DesktopModules\kk_aj_diarieView\obj\Release\kk_aj_diarieView.dll
 D:\wwwroot\dnndev_v9.me\DesktopModules\kk_aj_diarieView\obj\Release\kk_aj_diarieView.xml
 D:\wwwroot\dnndev_v9.me\DesktopModules\kk_aj_diarieView\obj\Release\kk_aj_diarieView.pdb
+D:\wwwroot\dnndev_v9.me\DesktopModules\kk_aj_diarieView\obj\Release\kk_aj_diarieView.vbprojResolveAssemblyReference.cache
