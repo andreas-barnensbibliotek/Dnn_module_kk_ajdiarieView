@@ -17,92 +17,26 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="box">
-                            <div class="box-header">
-                                <h3 class="box-title">Behandlade ansökningar</h3>
-                                <div class="box-tools">
-                                    <div class="input-group input-group-sm" style="width: 150px;">
-                                        <input type="text" name="table_search" class="form-control pull-right" placeholder="Sök i Diarie/ Logg">
-                                        <div class="input-group-btn">
-                                            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <!-- /.box-header -->
                             <div class="box-body table-responsive no-padding">
-                                <table class="table table-hover">
-                                    <tr>
-                                        <th>ArrID <i class="fa fa-caret-down" aria-hidden="true"></i></th>
-                                        <th>Datum <i class="fa fa-caret-down" aria-hidden="true"></i></th>                                         
-                                        <th>Rubrik <i class="fa fa-caret-down" aria-hidden="true"></i></th>                                       
-                                        <th>Utövare <i class="fa fa-caret-down" aria-hidden="true"></i></th>                                                                               
-                                        <th>Motivering <i class="fa fa-caret-down" aria-hidden="true"></i></th>
-                                        <th>Admin <i class="fa fa-caret-down" aria-hidden="true"></i></th>
-                                        <th>Status <i class="fa fa-caret-down" aria-hidden="true"></i></th>
+                                <table id="diarieTable" class="table table-hover">
+                                    <thead>
+                                    <tr class="tableheader">
+                                        <th>ArrID</th>
+                                        <th>Datum </th>                                         
+                                        <th>Rubrik </th>  
+                                            <th>Statustypid</th>
+                                            <th>UtövareID </th>                                      
+                                        <th>Utövare </th>                                                                               
+                                        <th>Motivering </th>
+                                        <th>Ändrad av </th>
+                                        <th>Status </th>
+                                       
                                     </tr>
-                                    <tr>
-                                        <td>185</td>
-                                        <td>2017-01-13</td>
-                                        <td>Skolbio förskolan: <b>Mustang</b></td>
-                                        <td>--</td>                                        
-                                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                                        <td>Andreas Josefsson</td>
-                                        <td><span class="label label-success">Godkänd</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>183</td>
-                                        <td>2016-12-23</td>
-                                        <td>Alfa / Omega</td>
-                                        <td>Lajvverkstaden</td>
-                                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                                        <td>Andreas Josefsson</td>
-                                        <td><span class="label label-success">Godkänd</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>185</td>
-                                        <td>2017-12-22</td>
-                                        <td>Skolbio förskolan: <b>Mustang</b></td>
-                                        <td>--</td>
-                                        <td></td>
-                                        <td>Andreas Josefsson</td>
-                                        <td><span class="label label-warning">Ändrad</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>183</td>
-                                        <td>2016-12-12</td>
-                                        <td>Alfa / Omega</td>
-                                        <td>Lajvverkstaden</td>
-                                        <td>Väntar på mer info dolor sit amet salami venison chicken flank fatback doner.</td>
-                                        <td>Andreas Josefsson</td>
-                                        <td><span class="label label-warning">Avvaktar</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>183</td>
-                                        <td>2016-12-01</td>
-                                        <td>Alfa / Omega</td>
-                                        <td>Lajvverkstaden</td>
-                                        <td></td>
-                                        <td>Andreas Josefsson</td>
-                                        <td><span class="label label-primary">Inkommen</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>185</td>
-                                        <td>2017-12-01</td>
-                                        <td>Skolbio förskolan: <b>Mustang</b></td>
-                                        <td>--</td>
-                                        <td></td>
-                                        <td>Andreas Josefsson</td>
-                                        <td><span class="label label-warning">Ändrad</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>185</td>
-                                        <td>2017-11-30</td>
-                                        <td>Skolbio förskolan: <b>Mustang</b></td>
-                                        <td>--</td>
-                                        <td></td>
-                                        <td>Andreas Josefsson</td>
-                                        <td><span class="label label-primary">Inkommen</span></td>
-                                    </tr>
+                                        </thead>
+                                    <tbody class="kk_aj_diarietbl">                                    
+                                    </tbody>
                                 </table>
                             </div>
                             <!-- /.box-body -->
@@ -112,7 +46,15 @@
                 </div>
             </section>
             <!-- /.content -->
+
 <div id="kk_aj_conf" style="">
-    <span id="kk_aj_roll" runat="server"></span>
-    <span id="kk_aj_page" runat="server"></span>
+    <span id="kk_aj_CurrentRollid" class="kk_aj_CurrentRollid" runat="server"></span>
+    <span id="kk_aj_CurrentPageType" class="kk_aj_CurrentPageType" runat="server"></span>
 </div>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+       
+    
+
+    });
+</script>
