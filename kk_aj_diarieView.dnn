@@ -98,7 +98,7 @@
             <attributes>
               <businessControllerClass>kulturkatalogenadmin.aj.kk_aj_diarieView.Components.FeatureController, kk_aj_diarieView</businessControllerClass>
               <desktopModuleID>[DESKTOPMODULEID]</desktopModuleID>
-              <upgradeVersionsList>00.00.01</upgradeVersionsList>
+              <upgradeVersionsList>00.00.02</upgradeVersionsList>
             </attributes>
           </eventMessage>
         </component>

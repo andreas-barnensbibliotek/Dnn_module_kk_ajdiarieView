@@ -30,7 +30,7 @@
                                             <th>UtövareID </th>                                      
                                         <th>Utövare </th>                                                                               
                                         <th>Motivering </th>
-                                        <th>Ändrad av </th>
+                                        <th>Ändrad </th>
                                         <th>Status </th>
                                        
                                     </tr>
