@@ -7,7 +7,7 @@
                     <small>Historik över kulturkatalogens annonser</small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="userstart.html"><i class="fa fa-dashboard"></i> Start</a></li>
+                    <li><a href="/KulturkatalogenAdmin"><i class="fa fa-dashboard"></i> Start</a></li>
                     <li><a href="#">Diarie</a></li>                   
                 </ol>
             </section>
